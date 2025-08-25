@@ -1,6 +1,13 @@
-/.DS_Store
-/.svelte-kit
-/build
-/node_modules
-/전시실행가이드.md
-/static/videos/
+# 모든 파일 무시
+*
+
+# 빌드 폴더 내용만 추적
+!build/
+!build/**
+
+# .gitignore 파일은 추적
+!.gitignore
+
+# README 파일들 추적 (선택사항)
+!README.md
+!전시실행가이드.md
